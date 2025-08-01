@@ -356,8 +356,11 @@
             }
 
             .lightbox-content img {
+            width: 100%;
             width: 100vw;
             min-width: 350px;
+            max-width: 360px;
+            height: 600px;
             height: 100vh;
             object-fit: cover;
             object-position: 100%;
